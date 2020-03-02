@@ -9,7 +9,7 @@ public class Second {
         Scanner c = new Scanner(System.in);
         int C = c.nextInt();
 
-        if(A+B > C || A+C>B || B+C > A){
+        if(A+B > C && A+C>B && B+C > A){
             System.out.println("the triangle is existing");
         }
         else{
